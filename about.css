@@ -17,7 +17,7 @@ ul{
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: black;
 	box-shadow: 2px 0px 5px yellow;
 }
 
@@ -28,7 +28,7 @@ ul li{
 }
 
 ul li a{
-	color: black;
+	color: white;
 	text-decoration: none;
 	font-size: 20px;
 	padding: 40px;
