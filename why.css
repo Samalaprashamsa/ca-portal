@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	height: 760px;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 5, 10, 0.2), rgba(0, 5, 10, 0.2)), url(chess-background-image.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+.container{
+	height:760px;
+	width: 100%;
+}
+
+ul{
+	list-style: none;
+	height: 760px;
+	width: 300px;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: black;
+	box-shadow: 2px 0px 5px yellow;
+}
+
+ul li{
+	margin: 5px;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 40px;
+}
+
+ul li a:hover{
+	color: yellow;
+	text-decoration: none;
+}
+
+.content {
+	margin-left: 200px;
+	margin-top: 30px;
+	font-weight: bolder;
+	color: darkred;
+}
+
+.content .fa{
+    font-size: 20px;
+}
+
+img{
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+}

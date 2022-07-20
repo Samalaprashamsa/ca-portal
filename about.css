@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background-image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+
+ul{
+	list-style: none;
+	height: 760px;
+	width: 300px;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	box-shadow: 2px 0px 5px yellow;
+}
+
+ul li{
+	margin: 5px;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 40px;
+}
+
+ul li a:hover{
+	color: yellow;
+	text-decoration: none;
+}
+
+.counter-section{
+	margin: 10% auto;
+	margin-top: 100px;
+	color: #fff;
+	height: 760px;
+	width: 100%;
+	position: fixed;
+}
+
+.icon-box{
+	border: 1px solid #fff;
+    height: 50px;
+    width: 50px;
+    margin: 20px auto;
+    transform: rotate(45deg);
+    margin-left: 500px;
+    background: white;
+}
+
+.icon-box .fa{
+	font-size: 30px;
+	margin: 10px auto;
+	color: maroon;
+	transform: rotate(-45deg);
+}
+
+.counter-box p{
+	font-size: 20px;
+	margin-left: 500px;
+}
+
+.counter-box .counter{
+	font-size: 50px;
+}
+.content{
+	height: 100px;
+	width: 1200px;
+	color: white;
+	margin-left: 300px;
+	margin-top: 40px;
+	position:absolute ;
+}
+
+.row {
+	background-position: center;
+}
+
+.content p{
+	line-height: 30px;
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 10px;
+	position: fixed;
+}
+
+.content h1{
+	margin-left: 450px;
+}
+
+.logos img{
+	height: 20px;
+	width: 20px;
+	
+}
+
+
+
+
+
